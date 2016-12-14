@@ -5,16 +5,25 @@
 
     <item
         android:id="@+id/action_edit"
-        android:title="one"
-        app:showAsAction="never" />
+        android:icon="@drawable/ic_settings_grey_400_24dp"
+        android:title="1"
+        app:showAsAction="ifRoom" />
 
     <item
         android:id="@+id/action_share"
-        android:title="two"
-        app:showAsAction="never" />
+        android:icon="@drawable/ic_settings_grey_400_24dp"
+        android:title="2"
+        app:showAsAction="always" />
 
     <item
         android:id="@+id/action_settings"
-        android:title="third"
-        app:showAsAction="never" />
+        android:icon="@drawable/ic_settings_grey_400_24dp"
+        android:title="3"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_four"
+        android:icon="@drawable/ic_settings_grey_400_24dp"
+        android:title="4"
+        app:showAsAction="ifRoom" />
 </menu>

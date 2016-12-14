@@ -6,5 +6,13 @@
     android:layout_height="match_parent"
     tools:context="com.sven.rx.MainActivity">
 
-    <include layout="@layout/layout_tool_bar" />
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/layout_tool_bar" />
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar" />
 </RelativeLayout>

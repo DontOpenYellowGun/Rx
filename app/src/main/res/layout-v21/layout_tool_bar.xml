@@ -6,7 +6,6 @@
     android:layout_height="48dp"
     android:background="@color/colorPrimary"
     android:elevation="8dp"
-    app:menu="@menu/menu_main"
-    app:navigationIcon="@mipmap/ic_launcher"
+    app:navigationIcon="@drawable/ic_menu_white_24dp"
     app:title="@string/app_name"
     app:titleTextColor="@android:color/white" />
